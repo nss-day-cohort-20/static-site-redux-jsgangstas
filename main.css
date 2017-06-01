@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;	
+	margin-top: 2%;
+}
+
+nav{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: red;
+	border: 2px black solid;
+	font-size: 16pt;
+	text-align: center;
+}
+
+nav li{
+	padding-left: 2%;
+	padding-right: 2%;
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+}
+
+#wrapper {
+
+}
+
+#banner {
+	background-color: blue;
+	height: 100px;
+	text-align: center;
+	font-size: 48pt;
+}
+
+ #tv {
+	background-image: url("http://images.clipartpanda.com/tv-clipart-glossy_tv_clip_art_10392.jpg");
+	/*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtqI2pmLoEHwpCBWnbBfE45fzrEoSn3WHCsvT8p8oG9n9PKqFh-Q");*/
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}	
+
