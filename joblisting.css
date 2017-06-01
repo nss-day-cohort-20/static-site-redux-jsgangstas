@@ -26,8 +26,12 @@ h1 {
 	text-align: center;
 	padding: 5px;
 	margin: 5px;
+	
 }
+
 h2 {
+	color: white;
+	background-color: blue;
 	padding: 10px;
 	border-bottom: solid 2px red;
 	text-align: center;
@@ -50,4 +54,11 @@ p {
 	padding: 3px;
 	margin: 2px;
 	font-size: 1.5em;
+
+}
+
+footer {
+	padding: 1px;
+	margin: 1px;
+	font-size: 9px;
 }
