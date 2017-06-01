@@ -1,53 +1,59 @@
 
  var products = [
  	{ name: "one",
- 	  description: "a",
+ 	  description: "This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description ",
  	  price: "1",
  	  url:""
  	},
  	{ name: "two",
- 	  description: "b",
+ 	  description: "This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description ",
  	  price: "2",
  	  url:""
  	},
  	{ name: "three",
- 	  description: "c",
+ 	  description: "This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description ",
  	  price: "3",
  	  url:""
  	},
  	{ name: "four",
- 	  description: "d",
+ 	  description: "This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description ",
  	  price: "4",
  	  url:""
  	},
  	{ name: "five",
- 	  description: "e",
+ 	  description: "This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description ",
  	  price: "5",
  	  url:""
  	},
  	{ name: "six",
- 	  description: "f",
+ 	  description: "This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description ",
  	  price: "6",
  	  url:""
  	},
  	{ name: "seven",
- 	  description: "g",
+ 	  description: "This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description ",
  	  price: "7",
  	  url:""
  	},
  	{ name: "eight",
- 	  description: "h",
+ 	  description: "This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description This is the product description ",
  	  price: "8",
  	  url:""
  	}
  ];
 
- var productlist = document.getElementById("products")
+ var productlist = document.getElementById("container")
  for (var i = 0; i < products.length; i++) {
- 	productlist.innerHTML += "<div>" 
- 	+ products[i].name 
- 	+ products[i].description 
- 	+ products[i].price 
- 	+ products[i].url 
+ 	productlist.innerHTML += "<div class='job'>"
+ 	+ "<article>" 
+ 	+ "<header>"
+	 	+ "<h2>" + products[i].name + "</h2>" 
+	+ "</header>"
+ 	+ "<section>" 
+	 	+ "<img scr=" + products[i].url + ">"
+	 	+ "<p>" + products[i].description + "</p>"
+	 	+ "<p>" + products[i].price + "</p>"
+	+ "</section>"
+	+ "</article>"
  	+ "</div>";
- }
+}
