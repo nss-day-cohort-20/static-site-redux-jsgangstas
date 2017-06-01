@@ -1,0 +1,53 @@
+h3{
+	text-align: center;
+}
+
+
+#divider {
+	margin-top: 5%;
+}
+
+#content{
+	height: auto;
+	display: inline;
+}
+
+#contactUs {
+	margin-left: 8%;
+	border: 1px black solid;
+	float: left;
+	min-width: 35%;
+}
+
+#contactUs p {
+	padding-left: 2%;
+	padding-bottom: 1%;
+}
+
+#contactUs input {
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+#signUp {
+	margin-right: 8%;
+	border: 1px black solid;
+	float: right;
+	min-width: 35%;
+}
+
+#signUp p {
+	padding-left: 2%;
+	padding-bottom: 1%;
+}
+
+#signUp input {
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+/*input[type="submit"]{*/
+	/*text-align: center;*/
+/*}*/
