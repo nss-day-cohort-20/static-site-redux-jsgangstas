@@ -1,0 +1,27 @@
+h3{
+	text-align: center;
+}
+
+
+#divider {
+	margin-top: 5%;
+}
+
+#content{
+	height: auto;
+	display: inline;
+}
+
+#contactUs {
+	margin-left: 4%;
+	border: 1px black solid;
+	float: left;
+	min-width: 35%;
+}
+
+#signUp {
+	margin-right: 4%;
+	border: 1px black solid;
+	float: right;
+	min-width: 35%;
+}
