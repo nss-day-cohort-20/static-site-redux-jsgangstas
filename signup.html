@@ -39,7 +39,7 @@
 
 			<div id="content">
 				
-				<div id="contactUs">
+				<div id="contactUs" class="contentBox">
 
 					<form>
 
@@ -51,8 +51,12 @@
 					<br><br>
 
 					<p>What is the best way to reach you?:</p>
-					<input type="checkbox" name="contactMethod" value="Phone">Phone
-					<input type="checkbox" name="contactMethod" value="Email">Email
+
+					<input type="radio" name="contactMethod" id="contactPhone" value="Phone">
+					<label for="contactPhone">Phone</label>
+
+					<input type="radio" name="contactMethod" id="contactEmail" value="Email">
+					<label for="contactEmail">Email</label>
 
 					<br><br>
 
@@ -61,12 +65,12 @@
 
 					<br><br>
 
-					<input type="submit" name="submit">
+					<input type="submit" name="submit" value="Contact">
 
 					</form>
 				</div>
 
-				<div id="signUp">
+				<div id="signUp" class="contentBox">
 					<form>
 						
 					<h3>Sign-Up Now!</h3>
@@ -80,6 +84,30 @@
 
 					<p>Last Name:</p>
 					<input type="text" name="lastName">
+
+					<br><br>
+
+					<p>Phone Number:</p>
+					<input type="text" name="signUpPhone" placeholder="ex.(xxx)-xxx-xxxx">
+
+					<br><br>
+
+					<p>Email address:</p>
+					<input type="text" name="signUpEmail" placeholder="xxx@email.com">
+
+					<br><br>
+
+					<p>Username:</p>
+					<input type="text" name="sighnUpUsername">
+
+					<br><br>
+
+					<p>Password:</p>
+					<input type="password" name="signUpPassword">
+
+					<br><br>
+
+					<input type="submit" name="submitSignUp" value="Sign-Up">					
 
 					</form>
 				</div>
