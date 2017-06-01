@@ -39,6 +39,7 @@
  	  description: "Rodent Sheriff pest repellent scares off rats, mice, squirrels, and other rodents. Rodent Sheriff is made in the USA from a handcrafted peppermint formula that's revolting to mice, rats, squirrels and other rodents. Yet you'll love the fresh minty scent and it is safe around children and pets. Spray liberally in your garden to discourage scavengers and around trashcans, vehicles, garages, storage areas, attics – wherever rodents are a problem. 8 fl. oz.",
  	  price: "$19.99!",
  	  url: "http://www.asseenontv.com/imgcache/product/resized/000/961/156/catl/rodent-sheriff_670.jpg?k=c6bb9f84&pid=961156&s=catl&sn=asseenontv"
+
  	}
  ];
 
@@ -50,7 +51,9 @@
 	 	+ "<h2>" + products[i].name + "</h2>" 
 	+ "</header>"
  	+ "<section>" 
+
 	 	+ "<img src=" + products[i].url + ">"
+
 	 	+ "<p>" + products[i].description + "</p>"
 	 	+ "<p>" + products[i].price + "</p>"
 	+ "</section>"

@@ -60,5 +60,13 @@ p {
 footer {
 	padding: 1px;
 	margin: 1px;
-	font-size: 9px;
+	font-size: 10px;
+}
+
+img#team {
+	justify-content: center;
+	height: 500px;
+	border: solid 2px red;
+	margin: 20px;
+	padding: 0;
 }
